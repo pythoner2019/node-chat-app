@@ -11,5 +11,5 @@ socket.on('disconnect', function () {
 
 
 socket.on('newMessage', (message) => {
-	console.log('newMessage', message);
+	console.log('newMessage: ', message);
 })
